@@ -13,7 +13,7 @@ class Artist
     art ? art : artist = new(artist_name)
   end
   
-  def self.save
+  def save
     @@all << self
   end
   
