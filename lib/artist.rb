@@ -13,16 +13,16 @@ class Artist
     art ? art : artist = new(artist_name)
   end
   
-  def save
-    @@all << self
-  end
-  
   def add_song(song)
     @songs << song
   end
   
   def print_songs
     @songs
+  end
+  
+  def save
+    @@all << self
   end
   
 end
