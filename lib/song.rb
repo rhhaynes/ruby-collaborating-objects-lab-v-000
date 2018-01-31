@@ -9,7 +9,7 @@
     artist_name, song_name, genre = filename.split(" - ")
     song = new(song_name)
     song.artist = artist_name(artist_name)
-    #song
+    song
   end
   
   def self.artist_name(artist_name)
