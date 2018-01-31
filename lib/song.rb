@@ -10,7 +10,6 @@
     song = new(song_name)
     song.artist = artist_name(artist_name)
     song.artist.add_song(song)
-    song.artist.save
     song
   end
   
