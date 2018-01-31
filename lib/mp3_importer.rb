@@ -10,7 +10,7 @@ class MP3Importer
   end
   
   def import
-    self.files.map{|f| Song.new_by_filename(f)}
+    files.map{|f| Song.new_by_filename(f)}
   end
   
 end
