@@ -10,7 +10,7 @@ class Artist
   
   def self.find_or_create_by_name(artist_name)
     art = @@all.detect{|i| i.name == artist_name}
-    art ? art : artist = new(artist_name)
+    art ? art : new(artist_name)
   end
   
   def add_song(song)
